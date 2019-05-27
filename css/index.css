@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'BalooChettan';
+    src: url('./fonts/BalooChettan-Regular.ttf') format('truetype')
+
+}
+
+html, body {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    background: #fff;
+    color: #000000;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    /*flex-flow: column wrap;*/
+    flex-direction: column;
+    /*justify-content: space-between;*/
+    align-items: center;
+}
+
+
+.main-box {
+    /*text-align: center;*/
+    /*margin: 0 20vw;*/
+    /*align-self: start;*/
+}
+
+.logo-box {
+    font-family: BalooChettan, sans-serif;
+    margin: 20vh auto 0 auto;
+    font-size: 120px;
+    color: transparent;
+    height: 200px;
+    line-height: 200px;
+    font-weight: 700;
+    text-align: center;
+    background: linear-gradient(90deg, #2C3E50, #4CA1AF);
+    -webkit-background-clip: text;
+    width: fit-content;
+}
+
+.search-box {
+    margin-top: 2vh;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    /*background: linear-gradient(90deg, #4CA1AF, #0ACFCC);*/
+    background: linear-gradient(90deg, #4CA1AF, #C4E0E5);
+    border-radius: 100px;
+    border: 2px #2C3E50 solid;
+    overflow: hidden;
+    /*animation: Gradual1 10s infinite;*/
+    /*box-sizing: border-box;*/
+    /*box-shadow: 0 0 5px 2px #c0c0c0;*/
+}
+
+.search:hover {
+    /*border: none;*/
+    /*border: 1px #2C3E50 solid;*/
+    box-shadow: 0 0 5px 2px #c0c0c0;
+
+}
+
+
+#kw {
+    /*height: 46px;*/
+    width: 75vw;
+    font-size: 32px;
+    margin: 0;
+    color: #fff;
+    background: transparent;
+    border: none;
+    height: 80px;
+    padding: 10px 25px;
+    line-height: 60px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+#kw:focus {
+    /*border: 2px #2C3E50 solid;*/
+}
+
+.search-button {
+    background: transparent;
+    color: #2C3E50;
+    padding: 10px 25px;
+    font-size: 32px;
+    font-weight: 700;
+    height: 80px;
+    box-sizing: border-box;
+    line-height: 60px;
+    /*border-left: 1px #fff dashed;*/
+}
+
+.other-button-box {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.other-button {
+    padding: 10px 15px;
+    text-align: center;
+    background: #2C3E50;
+    color: #ffffff;
+    border-radius: 10px;
+    margin: 0 20px;
+    width: 120px;
+    font-size: 20px;
+}
+
+.s-button {
+    cursor: pointer;
+}
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    color: #2C3E50;
+    margin-bottom: 15px;
+    font-weight: 700;
+    /*background: linear-gradient(90deg, #4CA1AF, #C4E0E5);*/
+    /*padding: 10px 22px;*/
+    /*border: 1px #2C3E50 solid;*/
+    /*border-radius: 25px;*/
+}
+
+footer span {
+    /*color: #4C5E70;*/
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
