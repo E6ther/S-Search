@@ -134,8 +134,9 @@ footer {
     /*border-radius: 25px;*/
 }
 
-footer span {
-    /*color: #4C5E70;*/
+footer a {
+    text-decoration: none;
+    color: #2C3E50;
 }
 
 .icon {
