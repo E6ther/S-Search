@@ -4,3 +4,5 @@
 没有广告
 打开迅速
 支持多种搜索方式
+
+### [Demo](https://skji.net/S-search/)
